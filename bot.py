@@ -45,4 +45,4 @@ def disp(i):
 
 # driver function
 if __name__ == '__main__':
-    app.run(debug = False)
+    app.run(host="192.168.0.100",port=1993, threaded=True,debug = True)
